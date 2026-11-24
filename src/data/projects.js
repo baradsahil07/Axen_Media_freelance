@@ -1,0 +1,42 @@
+export const projects = [
+  {
+    id: 'proj-1',
+    title: 'Architectural Digest — Modern Minimalist Retreat',
+    category: 'Commercial & Brand Film',
+    poster: 'images/home/projects/project-01.jpg',
+    video: null,
+    sideAspect: 1,
+  },
+  {
+    id: 'proj-2',
+    title: 'High-Paced Tech Hardware Review',
+    category: 'YouTube Long-Form',
+    poster: 'images/home/projects/project-02.jpg',
+    video: null,
+    sideAspect: 0.6,
+  },
+  {
+    id: 'proj-3',
+    title: 'Kinetic Motion Typography Campaign',
+    category: 'Social Cutdown',
+    poster: 'images/home/projects/project-03.jpg',
+    video: null,
+    sideAspect: 0.85,
+  },
+  {
+    id: 'proj-4',
+    title: 'Global Travel Docuseries Episode 04',
+    category: 'Documentary',
+    poster: 'images/home/projects/project-04.jpg',
+    video: null,
+    sideAspect: 0.7,
+  },
+  {
+    id: 'proj-5',
+    title: 'Silicon Valley Founder Deep-Dive Podcast',
+    category: 'Podcast Video',
+    poster: 'images/home/projects/project-05.jpg',
+    video: null,
+    sideAspect: 0.95,
+  },
+];

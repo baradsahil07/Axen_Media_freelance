@@ -1,0 +1,183 @@
+export const workflowSteps = [
+  {
+    id: 'reach-out',
+    step: '01',
+    title: 'You Reach Out',
+    description:
+      "You contact us through our website, email, or referral. We'll get back to you quickly to understand what you need and see if we're the right fit.",
+    icon: 'images/icons/workflow/step-01-icon.png',
+    scene: [
+      {
+        src: 'images/home/workflow/tabs/tab1-desktop.webp',
+        l: 1.9,
+        t: 7,
+        w: 97.7,
+        r: -5.9,
+        d: 0.05,
+        amp: 5,
+      },
+      {
+        src: 'images/home/workflow/tabs/tab1-phone.webp',
+        l: 68.5,
+        t: 20,
+        w: 29.8,
+        r: 11,
+        d: 0.25,
+        amp: 7,
+      },
+      {
+        src: 'images/home/workflow/tabs/tab1-chips.webp',
+        l: 21.9,
+        t: 60.5,
+        w: 59.7,
+        d: 0.45,
+        amp: 5,
+      },
+    ],
+  },
+  {
+    id: 'scope',
+    step: '02',
+    title: 'Scope, Timeline & Pricing',
+    description:
+      'Once everything is clear, we share a simple breakdown of deliverables, timelines, and pricing. No hidden costs, no confusion. Everything is clear from the start.',
+    icon: 'images/icons/workflow/step-02-icon.png',
+    scene: [
+      { src: 'images/home/workflow/tabs/tab2-chips-b.webp', l: 86, t: 24.6, w: 32, d: 0.4, amp: 6 },
+      {
+        src: 'images/home/workflow/tabs/tab2-call.webp',
+        l: 3.7,
+        t: 23.9,
+        w: 102.4,
+        r: 6.5,
+        d: 0.05,
+        amp: 5,
+      },
+      {
+        src: 'images/home/workflow/tabs/tab2-chips-a.webp',
+        l: 60.7,
+        t: 14.1,
+        w: 34.9,
+        d: 0.3,
+        amp: 6,
+      },
+    ],
+  },
+  {
+    id: 'assets',
+    step: '03',
+    title: 'You Share the Assets',
+    description:
+      "You send us the raw footage, references, brand guidelines, or any examples you like. If something isn't clear, we'll ask before moving forward.",
+    icon: 'images/icons/workflow/step-03-icon.png',
+    scene: [
+      {
+        src: 'images/home/workflow/tabs/tab3-notion.webp',
+        l: 22.9,
+        t: 30.4,
+        w: 84,
+        r: 22.3,
+        d: 0.05,
+        amp: 5,
+      },
+      {
+        src: 'images/home/workflow/tabs/tab3-dropbox.webp',
+        l: -3.9,
+        t: 67.8,
+        w: 101.3,
+        r: -13,
+        d: 0.25,
+        amp: 7,
+      },
+    ],
+  },
+  {
+    id: 'editing',
+    step: '04',
+    title: 'Editing Begins',
+    description:
+      'Our team starts editing your content. Every project is handled by real editors, not auto-generated edits.',
+    icon: 'images/icons/workflow/step-04-icon.png',
+    scene: [
+      // this one image already contains the software chips and the two info cards
+      {
+        src: 'images/home/workflow/tabs/tab4-editor.webp',
+        l: -12.8,
+        t: 65.7,
+        w: 130.1,
+        d: 0.05,
+        amp: 6,
+      },
+    ],
+  },
+  {
+    id: 'first-draft',
+    step: '05',
+    title: 'First Draft Delivery',
+    description:
+      'We send you the first version within the agreed timeline. This gives you a clear idea of the direction before finalizing anything.',
+    icon: 'images/icons/workflow/step-05-icon.png',
+    scene: [
+      {
+        src: 'images/home/workflow/tabs/tab5-video.webp',
+        l: 2.3,
+        t: 43.6,
+        w: 104,
+        d: 0.05,
+        amp: 5,
+      },
+      {
+        src: 'images/home/workflow/tabs/tab5-phone.webp',
+        l: 75.9,
+        t: 56.1,
+        w: 34,
+        r: 16,
+        d: 0.25,
+        amp: 7,
+      },
+      {
+        src: 'images/home/workflow/tabs/tab5-fields.webp',
+        l: -16.3,
+        t: 95.5,
+        w: 44,
+        r: -9,
+        d: 0.4,
+        amp: 6,
+      },
+    ],
+  },
+  {
+    id: 'feedback',
+    step: '06',
+    title: 'Feedback & Final Delivery',
+    description:
+      'You share feedback, and we make the changes. Once approved, we deliver the final files in all required formats. Ready for social media, ads, or web use.',
+    icon: 'images/icons/workflow/step-06-icon.svg',
+    scene: [
+      {
+        src: 'images/home/workflow/tabs/tab6-card-a.webp',
+        l: -4.2,
+        t: 58.7,
+        w: 30.9,
+        d: 0.05,
+        amp: 5,
+      },
+      {
+        src: 'images/home/workflow/tabs/tab6-card-b.webp',
+        l: 35.2,
+        t: 75,
+        w: 30.9,
+        d: 0.2,
+        amp: 7,
+      },
+      {
+        src: 'images/home/workflow/tabs/tab6-card-c.webp',
+        l: 74.3,
+        t: 91.6,
+        w: 30.9,
+        d: 0.35,
+        amp: 6,
+      },
+    ],
+  },
+];

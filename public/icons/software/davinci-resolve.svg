@@ -1,0 +1,7 @@
+<!-- DaVinci Resolve Icon -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="10" fill="#1C1E24"/>
+  <circle cx="18" cy="18" r="7" fill="#E84A5F"/>
+  <circle cx="30" cy="20" r="6" fill="#3D84A8"/>
+  <circle cx="23" cy="31" r="7" fill="#F8B500"/>
+</svg>

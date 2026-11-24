@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Kirgina';
+    src: url('../public/fonts/KirginaDEMO-ExtraBold.eot');
+    src: url('../public/fonts/KirginaDEMO-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/KirginaDEMO-ExtraBold.woff2') format('woff2'),
+        url('../public/fonts/KirginaDEMO-ExtraBold.woff') format('woff'),
+        url('../public/fonts/KirginaDEMO-ExtraBold.ttf') format('truetype'),
+        url('../public/fonts/KirginaDEMO-ExtraBold.svg#KirginaDEMO-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: auto;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-white font-sans text-ink antialiased selection:bg-primary selection:text-ink;
+    overflow-x: clip;
+    font-optical-sizing: auto;
+    text-rendering: optimizeLegibility;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply tracking-tight;
+  }
+
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+}
+
+@layer components {
+  .site-container {
+    width: 100%;
+    max-width: 1680px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}

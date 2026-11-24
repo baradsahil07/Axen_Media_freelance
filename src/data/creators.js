@@ -1,0 +1,73 @@
+// Sorted by subscribers, highest first
+export const creators = [
+  {
+    id: 'fitlifetv',
+    name: 'FitLifeTV',
+    niche: 'Health & Wellness',
+    subscribers: '1.01M subscribers',
+    avatar: 'images/home/creators/creator-01.jpg',
+  },
+  {
+    id: 'kelley-stevens',
+    name: 'Kelley Stevens, Therapist, Private Practice Coach',
+    niche: 'Therapist',
+    subscribers: '57.3K subscribers',
+    avatar: 'images/home/creators/creator-04.jpg',
+  },
+  {
+    id: 'cooltechzone',
+    name: 'CoolTechZone',
+    niche: 'Tech',
+    subscribers: '38.8K subscribers',
+    avatar: 'images/home/creators/creator-05.jpg',
+  },
+  {
+    id: 'alexis-sierra',
+    name: 'Alexis Sierra',
+    niche: 'Wellness & Business',
+    subscribers: '29.6K subscribers',
+    avatar: 'images/home/creators/creator-06.jpg',
+  },
+  {
+    id: 'takumi-online',
+    name: 'Takumi Online',
+    niche: 'Business & Coaching',
+    subscribers: '19.5K subscribers',
+    avatar: 'images/home/creators/creator-08.jpg',
+  },
+  {
+    id: 'beau-madi',
+    name: 'Beau & Madi Chasing Dreams -Traveling the Americas',
+    niche: 'Vlog & Lifestyle',
+    subscribers: '14.8K subscribers',
+    avatar: 'images/home/creators/creator-02.jpg',
+  },
+  {
+    id: 'mend-human',
+    name: 'Mend Human',
+    niche: 'Doctor',
+    subscribers: '4.37K subscribers',
+    avatar: 'images/home/creators/creator-07.jpg',
+  },
+  {
+    id: 'italian-adventure',
+    name: 'Our Big Italian Adventure',
+    niche: 'Podcast',
+    subscribers: '2.40K subscribers',
+    avatar: 'images/home/creators/creator-03.jpg',
+  },
+  {
+    id: 'takumi-abroad',
+    name: 'Takumi Ambition Abroad',
+    niche: 'Podcast',
+    subscribers: '2.40K subscribers',
+    avatar: 'images/home/creators/creator-09.jpg',
+  },
+  {
+    id: 'bnb-fastlane',
+    name: 'BNB Fastlane',
+    niche: 'Business',
+    subscribers: '1.3K subscribers',
+    avatar: 'images/home/creators/creator-10.jpg',
+  },
+];
